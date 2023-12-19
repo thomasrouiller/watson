@@ -1,0 +1,25 @@
+.tag-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.tag {
+  color: white;
+  border-radius: 5px;
+  padding: 10px 24px;
+  margin-right: 8px;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -0.6px;
+  text-transform: uppercase;
+}
+
+.tag-main {
+  background: #c4007a;
+}
+
+.tag-secondary {
+  background: #7cd401;
+}

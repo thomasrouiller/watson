@@ -2,10 +2,17 @@
   background-image: url(../img/art-img/pavot.png);
   background-size: cover;
   background-position: center;
+  border-radius: 10px;
 }
 
-@media (min-width: 992px) {
-  .main-news {
-    height: 200px;
-  }
+// @media (min-width: 992px) {
+//   .main-news {
+//     height: 50vhpx;
+//   }
+// }
+
+.main-news-container {
+  position: absolute;
+  left: 25;
+  bottom: 25;
 }
