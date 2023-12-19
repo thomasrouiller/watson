@@ -1,0 +1,11 @@
+.main-news {
+  background-image: url(../img/art-img/pavot.png);
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 992px) {
+  .main-news {
+    height: 200px;
+  }
+}
