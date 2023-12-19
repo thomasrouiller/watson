@@ -1,0 +1,44 @@
+.live-news {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.live-news-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.live-news-container {
+  position: absolute;
+  left: 25;
+  bottom: 25;
+}
+
+.live-news h1 {
+  font-size: 17px;
+
+  font-weight: 700;
+  line-height: 104%;
+  letter-spacing: -0.68px;
+  text-transform: uppercase;
+}
+
+.live-news span p {
+  margin-left: 0;
+  text-transform: lowercase;
+}
+
+@media (min-width: 992px) {
+  .live-news h1 + p {
+    margin-right: 150px;
+  }
+}
+
+.live-spacer {
+  margin-bottom: 30px;
+}

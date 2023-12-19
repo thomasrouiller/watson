@@ -13,8 +13,9 @@
     />
   </head>
   <body>
-    <h2>fake nav</h2>
-    <h2>banner</h2>
+    <div class="nav-container">
+      <img class="nav-img" src="img/banner.png" alt="" />
+    </div>
     <main>
       <div class="container">
         <div class="row">
@@ -105,9 +106,12 @@
           </div>
         </div>
       </div>
-      <div class="container"><h2>Articles les plus lus</h2></div>
-
       <div class="container">
+        <div class="row">
+          <div class="col-12"><h2>Articles les plus lus</h2></div>
+        </div>
+      </div>
+      <div class="container most-read-spacer">
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4">
             <div class="most-read-news">
@@ -192,22 +196,121 @@
           </div>
         </div>
       </div>
-      <h2>card</h2>
-      <div class="container">
+
+      <div class="container live-spacer">
         <div class="row">
-          <div class="col-12 col-md-6">direct israel</div>
-          <div class="col-12 col-md-6">direct ukraine</div>
+          <div class="col-12 col-md-6">
+            <article class="live-news">
+              <img
+                class="live-news-img"
+                src="img/art-img/live-gaza.png"
+                alt=""
+              />
+              <div class="live-news-container">
+                <div class="tag-container">
+                  <div class="tag tag-main">en direct</div>
+                </div>
+                <h1>
+                  assaut israélien contre le hamas, à “son point de rupture”
+                </h1>
+                <p>
+                  Suite à l'attentat perpétré par le Hamas contre Israël le 7
+                  octobre, l'Etat hébreu a riposté et mène une attaque brutale
+                  contre Gaza où se cachent les terroristes. Voici les dernières
+                  infos.
+                </p>
+                <span><p>de team watson / dernière maj : 12:30</p> </span>
+              </div>
+            </article>
+          </div>
+          <div class="col-12 col-md-6">
+            <article class="live-news">
+              <img
+                class="live-news-img"
+                src="img/art-img/live-ukraine.png"
+                alt=""
+              />
+              <div class="live-news-container">
+                <div class="tag-container">
+                  <div class="tag tag-main">en direct</div>
+                </div>
+                <h1>moscou évoque une avancée “significative”</h1>
+                <p>
+                  Suivez en direct les dernières infos sur la guerre de la
+                  Russie contre l'Ukraine et ses implications en Suisse ainsi
+                  que dans le monde.
+                </p>
+                <span><p>de team watson / dernière maj : 13:41</p> </span>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
-      <h2>small articles</h2>
-      <div class="container">
+      <div class="container secondary-spacer">
         <div class="row">
-          <div class="col-12 col-md-6 col-lg-4">trump</div>
-          <div class="col-12 col-md-6 col-lg-4">us politician</div>
-          <div class="col-12 col-md-6 col-lg-4">m1</div>
-          <div class="col-12 col-md-6 col-lg-4">uboat</div>
-          <div class="col-12 col-md-6 col-lg-4">onu</div>
-          <div class="col-12 col-md-6 col-lg-4">train</div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="secondary-news">
+              <img src="img/art-img/trump.png" alt="" />
+              <div class="secondary-news-tags">
+                <span class="secondary-tag-1">politique</span> /
+                <span class="secondary-tag-2">monde</span>
+              </div>
+              <h3>
+                la cour suprême appelée à statuer en urgence sur l’immunité de
+                trump
+              </h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="secondary-news">
+              <img src="img/art-img/usa.png" alt="" />
+              <div class="secondary-news-tags">
+                <span class="secondary-tag-1">politique</span> /
+                <span class="secondary-tag-2">monde</span>
+              </div>
+              <h3>La seule femme dont Donald Trump à peur</h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="secondary-news">
+              <img src="img/art-img/m1.png" alt="" />
+              <div class="secondary-news-tags">
+                <span class="secondary-tag-1">technologie</span> /
+                <span class="secondary-tag-2">monde</span>
+              </div>
+              <h3>Washington prépare un «super tank» dopé à l'IA</h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="secondary-news">
+              <img src="img/art-img/uboat.png" alt="" />
+              <div class="secondary-news-tags">
+                <span class="secondary-tag-1">russie</span> /
+                <span class="secondary-tag-2">monde</span>
+              </div>
+              <h3>poutine inaugure deux sous-marins nucléaires</h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="secondary-news">
+              <img src="img/art-img/onu.png" alt="" />
+              <div class="secondary-news-tags">
+                <span class="secondary-tag-1">guerre</span> /
+                <span class="secondary-tag-2">monde</span>
+              </div>
+              <h3>L'ONU demande moins de financement pour l'aide en 2024</h3>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="secondary-news">
+              <img src="img/art-img/train.png" alt="" />
+              <div class="secondary-news-tags">
+                <span class="secondary-tag-1">italie</span> /
+                <span class="secondary-tag-2">monde</span>
+              </div>
+              <h3>17 blessés légers dans une collision de trains en Italie</h3>
+            </div>
+          </div>
         </div>
       </div>
     </main>
