@@ -23,3 +23,14 @@
 .tag-secondary {
   background: #7cd401;
 }
+
+.tag-sub {
+  display: flex;
+  justify-content: center;
+  width: 130px;
+  background: #00b4e5;
+}
+
+.tag-sub img {
+  margin-right: 3px;
+}

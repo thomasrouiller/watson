@@ -99,6 +99,10 @@ img {
   border-radius: 10px;
 }
 
+.nav-fake-container img {
+  border-radius: 0px;
+}
+
 p {
   font-size: 17px;
   font-style: normal;
@@ -119,4 +123,13 @@ span {
 span p {
   margin: 0px 7px;
   font-size: 12px;
+}
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-bottom: 18px;
 }
