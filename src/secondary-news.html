@@ -1,0 +1,16 @@
+<div class="secondary-news">
+  <img
+    src="{{ newsimage }}?as=webp&width=800"
+    srcset="
+      {{ newsimage }}?as=webp&width=375   375w,
+      {{ newsimage }}?as=webp&width=768   768w,
+      {{ newsimage }}?as=webp&width=1200 1200w
+    "
+    alt="Donald Trump lors de son procès"
+  />
+  <div class="secondary-news-tags">
+    <span class="secondary-tag-1">{{ tag1 }}</span> /
+    <span class="secondary-tag-2">{{ tag2 }}</span>
+  </div>
+  <h3>{{ title }}</h3>
+</div>
